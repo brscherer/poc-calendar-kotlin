@@ -6,9 +6,7 @@ import io.ktor.server.routing.*
 
 fun Application.configureRouting() {
     routing {
-        customerRouting()
-        listOrdersRoute()
-        getOrderRoute()
-        totalizeOrderRoute()
+        userRouting()
+        meetingRouting()
     }
 }
